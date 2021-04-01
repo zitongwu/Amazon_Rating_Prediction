@@ -1,22 +1,22 @@
 """
-Authosr: Hang Liao, Boxian Wang, Zitong Wu, Austin Zhang (in alphabetical order)
-Course: COSC 274, Machine Learning and Statistical Data Analysis
-Date: Oct 11, 2020
+Author: Zitong Wu
+Date: Nov. 1, 2020
 
-Assignment:
+Description:
     Predict if a product on Amazon is awesome or not.
     Product type: grocery and gourmet food.
-    Awesomeness threshold: awesome if rating > 4.4 (out of 5)
+    Awesomeness threshold: awesome if rating > 4.4 (out of 5).
 
-We used a logisitic regression model to fit the training data and make 
-predictions on the test data. The features we used were reviewText and summary.
-Our overall approach was we first made multi-class (1,2,3,4,5) prediction for 
-each review and then averaged the review predictions for each product. (More 
-specifically, we did multiclass probability prediction for each review and 
-calculated the prediction for each review with their probabilities of belonging
-to different classes). Our program prints the accuracy, F1 and auc score 
-obtained from a 10-fold cross validation of our classifier. It also outputs our
-predictions to a csv file.  
+Steps:
+1. Preprocess the training data (Clean the review and summary fields)
+2. Generate review and summary features
+3. Fit a logisitic regression model on the training data
+4. Make predictions on the test data. 
+
+The overall approach is first making a multi-class (1,2,3,4,5) prediction for 
+each review and then averaging the review predictions for each product. Running 
+the following code will print the accuracy, F1 and auc score obtained from a 
+10-fold cross validation of the classifier. It also outputs our predictions to a csv file.  
 """
 
 
