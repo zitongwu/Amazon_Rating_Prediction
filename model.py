@@ -3,9 +3,9 @@ Author: Zitong Wu
 Date: Nov. 1, 2020
 
 Description:
-    Predict if a product on Amazon is awesome or not.
-    Product type: grocery and gourmet food.
-    Awesomeness threshold: awesome if rating > 4.4 (out of 5).
+Predict if a product on Amazon is awesome or not
+Product type: grocery and gourmet food
+Awesomeness threshold: awesome if rating > 4.4 (out of 5)
 
 Steps:
 1. Preprocess the training data (Clean the review and summary fields)
