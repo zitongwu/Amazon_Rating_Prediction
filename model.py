@@ -11,12 +11,7 @@ Steps:
 1. Preprocess the training data (Clean the review and summary fields)
 2. Generate review and summary features
 3. Fit a logisitic regression model on the training data
-4. Make predictions on the test data. 
-
-The overall approach is first making a multi-class (1,2,3,4,5) prediction for 
-each review and then averaging the review predictions for each product. Running 
-the following code will print the accuracy, F1 and auc score obtained from a 
-10-fold cross validation of the classifier. It also outputs our predictions to a csv file.  
+4. Make predictions on the test data.  
 """
 
 
