@@ -10,8 +10,9 @@ Awesomeness threshold: awesome if predicted rating > 4.4 (out of 5)
 Steps:
 1. Preprocess the training data (clean the review and summary entries)
 2. Generate review and summary features
-3. Fit a logisitic regression model on the training data
-4. Make predictions on the test data.  
+3. Fit a logisitic regression model on the training set
+4. Validate the model performance with the validation set
+5. Make predictions on the test set
 
 Running the following code will print the accuracy, F1 and AUC score obtained from 
 a 10-fold cross validation of the model, as well as outputting the predictions to a csv file
