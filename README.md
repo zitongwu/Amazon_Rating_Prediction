@@ -1,7 +1,5 @@
-# Amazon_Rating_Prediction
-## Zitong Wu
-<br >
-
+# Amazon_Rating_Prediction    
+### Zitong Wu
 
 ## Description
 Create a binary classifier to predict if a product on Amazon is awesome or not based on reviews.   
