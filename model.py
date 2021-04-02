@@ -5,13 +5,17 @@ Date: Nov. 1, 2020
 Description:
 Predict if a product on Amazon is awesome or not
 Product type: grocery and gourmet food
-Awesomeness threshold: awesome if rating > 4.4 (out of 5)
+Awesomeness threshold: awesome if predicted rating > 4.4 (out of 5)
 
 Steps:
 1. Preprocess the training data (Clean the review and summary fields)
 2. Generate review and summary features
 3. Fit a logisitic regression model on the training data
 4. Make predictions on the test data.  
+
+Running the following code will print the accuracy, F1 and AUC score obtained from 
+a 10-fold cross validation of the model, as well as outputting the predictions to a csv file
+
 """
 
 
