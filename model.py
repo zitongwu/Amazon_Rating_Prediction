@@ -8,7 +8,7 @@ Product type: grocery and gourmet food
 Awesomeness threshold: awesome if predicted rating > 4.4 (out of 5)
 
 Steps:
-1. Preprocess the training data (Clean the review and summary fields)
+1. Preprocess the training data (clean the review and summary entries)
 2. Generate review and summary features
 3. Fit a logisitic regression model on the training data
 4. Make predictions on the test data.  
