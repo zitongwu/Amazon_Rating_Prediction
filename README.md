@@ -14,7 +14,7 @@ The trained model obtained an F1 score of 0.88 on the validation set (with 10-fo
 * Training set: 921782 review entries, 33056 unique products 
 * Test set: 222078 review entries, 8264 unique products  
 
-You can find samples of the training and test set in the repository showing the first 100 entries of each
+:heart: In the repo you can find samples of the training and test set showing the first 100 entries of each
 
 ## General Approach 
 * First make a multi-class (1,2,3,4,5) rating prediction for each review
