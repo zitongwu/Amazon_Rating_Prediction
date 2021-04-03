@@ -1,5 +1,5 @@
 # Amazon_Rating_Prediction    
-### Zitong Wu, November 2020
+### Zitong Wu, Nov. 2020
 <br >  
 
 ## Description
