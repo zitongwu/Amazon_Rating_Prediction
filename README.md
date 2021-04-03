@@ -25,4 +25,4 @@ The trained model obtained an F1 score of 0.88 on the validation set (with 10-fo
 2. Generate review and summary features
 3. Fit a logisitic regression model on the training set
 4. Validate the model performance with the validation set
-5. Make predictions on the test set
+5. Make predictions on the test set and ouptut to a csv file
