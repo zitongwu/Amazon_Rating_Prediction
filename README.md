@@ -10,8 +10,9 @@ Awesomeness threshold: awesome if predicted rating > 4.4 (out of 5)
 The trained model obtained an F1 score of 0.88 on the validation set (with 10-fold cross validation) and 0.86 on the test set
 
 ## Data Size
-* Training set: 921782 review entries, 33056 unique products  
-* Test set: 222078 review entries, 8264 unique products
+* Training set: 921782 review entries, 33056 unique products 
+* Test set: 222078 review entries, 8264 unique products   
+You can find samples of the training and test set in the repository showing the first 100 entries of each
 
 ## General Approach 
 * First make a multi-class (1,2,3,4,5) rating prediction for each review
